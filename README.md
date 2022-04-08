@@ -12,10 +12,13 @@ from ARPR import *
 <h4> You must be root </h4> 
 
 ```yml
-Usage: mac_changer.py [options]
+python arp-spoofer.py --help
 
-Options:
-  -h, --help | show this help message and exit
-  -i INTERFACE, --interface=INTERFACE | Interface to change it's MAC address
-  -m NEW_MAC, --mac=NEW_MAC | your MAC address
+usage: arp-spoofer.py [-h] [-i INTERFACE] [-t IP] [-s SIP]
+
+optional arguments:
+  -h, --help | show this help message and exit   
+  -i INTERFACE, --interface INTERFACE | Interfece which you want to use   
+  -t IP, --target IP | Target ip you want to spoof       
+  -s SIP, --supplant SIP | Ip you want to impersonate 
 ```
