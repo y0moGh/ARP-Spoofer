@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import scapy.all as scapy
 
 # Getting Targets info
