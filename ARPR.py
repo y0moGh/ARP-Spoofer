@@ -1,8 +1,5 @@
 import scapy.all as scapy
 
-ip = input("Ingrese la primera ip: ")
-ip2 = input("Ingrese la segunda ip: ")
-
 # Getting Targets info
 def arp_request(ip, ip2):
     
@@ -31,5 +28,3 @@ def arp_request(ip, ip2):
         target2.append(dic2)
 
     return (target1, target2)
-    
-print(arp_request(ip, ip2))
