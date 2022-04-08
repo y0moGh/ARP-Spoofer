@@ -29,4 +29,7 @@ def arp_request(ip, ip2):
         dic2 = {'ip': element2[1].psrc, 'mac': element2[1].hwsrc}
         target2.append(dic2)
 
-    return (target1, target2)
+    mac1 = target1[0]
+    mac2 = target2[0]
+
+    return (mac1['mac'], mac2['mac'])
