@@ -12,7 +12,7 @@ from ARPR import *
 <h4> You must be root </h4> 
 
 ```yml
-> python arp-spoofer.py --help
+> sudo python arp-spoofer.py --help
 
 usage: arp-spoofer.py [-h] [-i INTERFACE] [-t IP] [-s SIP]
 
