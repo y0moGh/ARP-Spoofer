@@ -1,5 +1,9 @@
+![img](https://img.shields.io/badge/-python%203.9-blue) ![img](https://img.shields.io/badge/-Debian-yellowgreen)
+
 # ARP-Spoofer
+
 Fast & useful arp-spoofer. You only have to run it once (not like others)
+
 <h3 text align="center"> Modules </h3>
 
 ```py
